@@ -1,0 +1,10 @@
+.\obj\hal_rcc.o: ..\Hal_lib\src\HAL_rcc.c
+.\obj\hal_rcc.o: ..\Hal_lib\inc\HAL_rcc.h
+.\obj\hal_rcc.o: ..\Hal_lib\inc\HAL_device.h
+.\obj\hal_rcc.o: ..\CMSIS_and_startup\tk499.h
+.\obj\hal_rcc.o: ..\CMSIS_and_startup\CMSIS\core_cm4.h
+.\obj\hal_rcc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\hal_rcc.o: ..\CMSIS_and_startup\CMSIS\core_cmInstr.h
+.\obj\hal_rcc.o: ..\CMSIS_and_startup\CMSIS\cmsis_armcc.h
+.\obj\hal_rcc.o: ..\CMSIS_and_startup\CMSIS\core_cmFunc.h
+.\obj\hal_rcc.o: ..\CMSIS_and_startup\CMSIS\core_cmSimd.h

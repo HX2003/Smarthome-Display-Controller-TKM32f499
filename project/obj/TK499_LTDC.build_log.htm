@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: HX Timothy, nill, LIC=WHYH9-485F4-UH08H-WANVK-TX5RR-BSUXZ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.0.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+C:\Users\danny\Downloads\new lcd\TK499_LTDC_5smartboard_littleVGL_TK80_V7.4 working\project\TK499_LTDC.uvprojx
+Project File Date:  12/10/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'TK499_LTDC'
+compiling reflow_oven_ui.c...
+.\lvgl\lv_conf.h(764): warning:  #1-D: last line of file ends without a newline
+  #endif /*End of "Content enable"*/
+bsp\reflow_oven_ui.h(35): warning:  #1295-D: Deprecated declaration reflow_complete - give arg types
+  void reflow_complete();
+bsp\reflow_oven_ui.c(57): warning:  #1295-D: Deprecated declaration lights_on - give arg types
+  static void lights_on();
+bsp\reflow_oven_ui.c(58): warning:  #1295-D: Deprecated declaration lights_off - give arg types
+  static void lights_off();
+bsp\reflow_oven_ui.c(147): warning:  #177-D: variable "line_points_3"  was declared but never referenced
+      static lv_point_t line_points_3[] = {{0, 0}, {45, 45}};
+bsp\reflow_oven_ui.c(643): warning:  #767-D: conversion from pointer to smaller integer
+          lv_coord_t initial_y = (lv_coord_t)lv_obj_get_user_data(label);
+bsp\reflow_oven_ui.c(663): warning:  #767-D: conversion from pointer to smaller integer
+          lv_coord_t initial_y = (lv_coord_t)lv_obj_get_user_data(label);
+bsp\reflow_oven_ui.c(604): warning:  #177-D: function "add_loader"  was declared but never referenced
+  static lv_obj_t * add_loader(void (*end_cb)(lv_anim_t *))
+bsp\reflow_oven_ui.c(53): warning:  #177-D: function "reflow_oven_anim_bg"  was declared but never referenced
+  static void reflow_oven_anim_bg(uint32_t delay, lv_color_t color, int32_t y_new);
+bsp\reflow_oven_ui.c(676): warning:  #177-D: function "reflow_oven_anim_out"  was declared but never referenced
+  static void reflow_oven_anim_out(lv_obj_t * obj, uint32_t delay) {
+bsp\reflow_oven_ui.c(703): warning:  #177-D: function "reflow_oven_anim_out_all"  was declared but never referenced
+  static void reflow_oven_anim_out_all(lv_obj_t * obj, uint32_t delay) {
+bsp\reflow_oven_ui.c(722): warning:  #177-D: function "reflow_oven_anim_in"  was declared but never referenced
+  static void reflow_oven_anim_in(lv_obj_t * obj, uint32_t delay)
+bsp\reflow_oven_ui.c(62): warning:  #177-D: variable "error_state"  was declared but never referenced
+  static bool error_state = false;
+bsp\reflow_oven_ui.c(66): warning:  #177-D: variable "g"  was declared but never referenced
+  static lv_group_t * g;
+bsp\reflow_oven_ui.c(633): warning:  #177-D: function "icon_generic_event_cb"  was declared but never referenced
+  LV_EVENT_CB_DECLARE(icon_generic_event_cb)
+bsp\reflow_oven_ui.c: 15 warnings, 0 errors
+linking...
+Program Size: Code=141780 RO-data=317692 RW-data=1448 ZI-data=4354328  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil_v5\ARM\ARMCC\bin\fromelf.exe --bin -o  ..//TK499_LTDC.bin  ./obj/TK499_LTDC.axf
+".\obj\TK499_LTDC.axf" - 0 Error(s), 15 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_TK499_LTDC
+  C:\Users\danny\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\Device\ARM\ARMCM4\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:08
+</pre>
+</body>
+</html>
