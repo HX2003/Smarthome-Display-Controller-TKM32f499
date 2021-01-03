@@ -521,6 +521,7 @@ void GPIO_PinAFConfig(GPIO_TypeDef* GPIOx, uint32_t GPIO_Pin, uint8_t GPIO_AF)
 		}
 	if(GPIO_Pin&0XFF)  //说明是GPIOE的0~7位
 		{
+			temp = GPIO_Pin>>0;
 			for(i=0;i<8;i++)
 			{
 				if(temp&0x01)
